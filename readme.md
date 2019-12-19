@@ -10,6 +10,16 @@ App created in flutter for companies to create budgets fast and simple.
 > App screenshot
 ![](header.png)
 
+
+## Roadmap
+ - [ ] Proof of concept
+   - [ ] Serve a pdf in an API
+   - [ ] Download a pdf from a flutter app
+   - [ ] Simple API with templating format (html.ejs)
+ - [ ] Backend
+ - [ ] App 
+
+
 ## Installation
 
 > Coming soon
