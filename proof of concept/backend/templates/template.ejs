@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title><%= title %></title>
+</head>
+<body>
+  Budget <%= name %>
+  <table>
+    <thead>
+      <tr>
+        <th>Comida</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <% for(let i=0; i < comidas.length; i++) { %>
+        <tr>
+          <td><%= comidas[i].name %></td>
+          <td><%= comidas[i].price %></td>
+        </tr>
+      <% } %>
+
+    </tbody>
+  </table>
+</body>
+</html>
